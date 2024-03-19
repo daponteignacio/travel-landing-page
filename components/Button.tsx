@@ -10,7 +10,7 @@ const Button = ({
 }: {
     type: 'button' | 'submit'
     title: string,
-    icon: string,
+    icon?: string,
     variant: string
     full?: boolean
 }) => {
